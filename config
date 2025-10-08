@@ -37,7 +37,7 @@ font-size = 16
 # font-style-bold-italic = "BoldItalic"
 # font-size = 14
 
-background = 181818
+background = 121212
 # foreground = d6cf9a
 
 shell-integration-features = no-cursor
