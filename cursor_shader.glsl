@@ -70,7 +70,7 @@ vec4 hex_to_vec4(uint col) {
   return vCol;
 }
 
-vec4 TRAIL_COLOR = hex_to_vec4(0xD6CF9A);
+vec4 TRAIL_COLOR = hex_to_vec4(0xFFFFFF);
 const float DURATION = 0.05; //IN SECONDS
 
 void mainImage(out vec4 fragColor, in vec2 fragCoord)

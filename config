@@ -1,25 +1,25 @@
 theme = Rose Pine
 
-palette = 2=#3e8fb0
-palette = 10=#3e8fb0
-palette = 4=#9ccfd8
-palette = 12=#9ccfd8
+# palette = 2=#3e8fb0
+# palette = 10=#3e8fb0
+# palette = 4=#9ccfd8
+# palette = 12=#9ccfd8
 
 # For SauceCode Pro
-font-family = "SauceCode Pro Nerd Font"
-font-style = "Regular"
-font-style-bold = "Bold"
-font-style-italic = "Italic"
-font-style-bold-italic = "Bold Italic"
-font-size = 16
-
-# For Iosevka
-# font-family = "Iosevka"
-# font-style = "Medium"
+# font-family = "SauceCode Pro Nerd Font"
+# font-style = "Regular"
 # font-style-bold = "Bold"
 # font-style-italic = "Italic"
 # font-style-bold-italic = "Bold Italic"
 # font-size = 16
+
+# For Iosevka
+font-family = "Iosevka"
+font-style = "Medium"
+font-style-bold = "Bold"
+font-style-italic = "Italic"
+font-style-bold-italic = "Bold Italic"
+font-size = 16
 
 # For Inconsolata
 # font-family = "Inconsolata"
@@ -37,19 +37,19 @@ font-size = 16
 # font-style-bold-italic = "BoldItalic"
 # font-size = 14
 
-background = 2e2f30
-foreground = d6cf9a
+background = 101010
+# foreground = d6cf9a
 
 shell-integration-features = no-cursor
-cursor-color = d6cf9a
+# cursor-color = d6cf9a
 cursor-style = block
 cursor-style-blink = false
-cursor-text = 2e2f30
+# cursor-text = 2e2f30
 cursor-click-to-move = true
 
 mouse-hide-while-typing = true
 
-background-opacity = 1
+background-opacity = 0.5
 
 window-decoration = false
 window-theme = dark
