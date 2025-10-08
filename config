@@ -1,0 +1,78 @@
+theme = Rose Pine
+
+palette = 2=#3e8fb0
+palette = 10=#3e8fb0
+palette = 4=#9ccfd8
+palette = 12=#9ccfd8
+
+# For SauceCode Pro
+font-family = "SauceCode Pro Nerd Font"
+font-style = "Regular"
+font-style-bold = "Bold"
+font-style-italic = "Italic"
+font-style-bold-italic = "Bold Italic"
+font-size = 16
+
+# For Iosevka
+# font-family = "Iosevka"
+# font-style = "Medium"
+# font-style-bold = "Bold"
+# font-style-italic = "Italic"
+# font-style-bold-italic = "Bold Italic"
+# font-size = 16
+
+# For Inconsolata
+# font-family = "Inconsolata"
+# font-style = "SemiBold"
+# font-style-bold = "Bold"
+# font-style-italic = "Italic"
+# font-style-bold-italic = "Bold Italic"
+# font-size = 18
+
+# For Caskaydia Cove
+# font-family = "Caskaydia Cove Nerd Font Mono"
+# font-style = "SemiBold"
+# font-style-bold = "Bold"
+# font-style-italic = "Italic"
+# font-style-bold-italic = "BoldItalic"
+# font-size = 14
+
+background = 2e2f30
+foreground = d6cf9a
+
+shell-integration-features = no-cursor
+cursor-color = d6cf9a
+cursor-style = block
+cursor-style-blink = false
+cursor-text = 2e2f30
+cursor-click-to-move = true
+
+mouse-hide-while-typing = true
+
+background-opacity = 1
+
+window-decoration = false
+window-theme = dark
+window-save-state = never
+window-padding-x = 3
+window-padding-y = 3
+window-padding-balance = true
+
+gtk-single-instance = false
+gtk-titlebar = false
+
+keybind = shift+ctrl+r=reload_config
+
+keybind = shift+ctrl+h=new_split:left
+keybind = shift+ctrl+j=new_split:down
+keybind = shift+ctrl+k=new_split:up
+keybind = shift+ctrl+l=new_split:right
+
+keybind = alt+ctrl+h=goto_split:left
+keybind = alt+ctrl+l=goto_split:right
+
+custom-shader = "cursor_shader.glsl"
+custom-shader-animation = true
+
+clipboard-read = allow
+clipboard-write = allow
